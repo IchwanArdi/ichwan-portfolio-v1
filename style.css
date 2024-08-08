@@ -1,0 +1,99 @@
+.navbar .navbar-brand,
+.offcanvas-title,
+.navbar .nav-link {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 500;
+  color: rgb(235, 226, 226);
+}
+
+.display-4 {
+  font-family: brandon-grotesque, sans-serif;
+  padding-top: 2rem;
+  letter-spacing: 2px;
+}
+
+.lead {
+  font-family: adobe-caslon-pro;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .nav-link:hover {
+  color: white;
+}
+
+.nav-link {
+  transition: 0.5s;
+}
+
+.nav-link:hover {
+  transform: translate(-5px, -8px);
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background-color: #e2edff;
+}
+
+#project {
+  background-color: #e2edff;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.gallery-img-left,
+.gallery-img-right {
+  width: 100%;
+  margin: 0px;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+#about h2,
+#story h2,
+#project h2,
+#gallery h2,
+#contact h2 {
+  letter-spacing: 1px;
+  font-family: 'PT+Serif';
+  font-size: 3rem;
+  font-weight: 800;
+  display: inline-block; /* Tambahkan ini */
+  border-bottom: 2px solid #666;
+  margin-bottom: 2rem;
+}
+
+.card {
+  transition: 1s ease;
+}
+.card:hover {
+  box-shadow: 5px 5px 13px rgb(240, 53, 32);
+}
+
+.firstLatter {
+  font-family: 'Roboto Slab', serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+}
+
+.firstLatter:first-letter {
+  text-align: left;
+  color: #0d6efd;
+  font-size: 2.5rem;
+  font-weight: 800;
+  font-family: serif;
+}
+
+@media (max-width: 576px) {
+  .offcanvas-end {
+    width: 70% !important; /* Untuk navbar  */
+  }
+}
